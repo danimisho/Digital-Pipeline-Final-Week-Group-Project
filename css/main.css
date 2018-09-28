@@ -1,0 +1,291 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+*/
+
+/******************************************
+/* COLOURS
+/*******************************************/
+
+/* add a list of colours used in the project */
+
+/******************************************
+/* SENSIBLE DEFAULTS
+/*******************************************/
+
+* {
+     box-sizing: border-box;
+}
+img {
+	max-width:100%;
+}
+
+/******************************************
+/* TYPOGRAPHY
+/*******************************************/
+
+/* add type styles here */
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.site-container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.site-header {
+
+}
+.site-content {
+
+}
+.site-footer {
+
+}
+
+.container{
+  width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+.icon{
+  padding-top: 10px;
+  text-align: center;
+  width: 30%;
+  height: 330px;
+  background: black;
+  margin-bottom: 10px;
+  border-radius: 10%;
+}
+
+.blue{
+  background: #9AACD7;
+  color: white;
+}
+
+.red{
+  background: #E5878A;
+  color: white;
+}
+
+.yellow{
+  background: #FDEC78;
+}
+
+.purple{
+  background: #B6B1DA;
+  color: white;
+}
+
+.green{
+  background: #92D8AE;
+  color: white;
+  font-size: .9em;
+}
+
+.indigo{
+  background: #4D69AC;
+  color: white;
+}
+
+.symbol-container{
+  font-size: 6em;
+}
+
+.main-page{
+  width: 100%;
+  height: 750px;
+}
+
+h2{
+  font-size: 3em;
+}
+
+p{
+  font-size: 3em;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+.slideshow-container {
+  width: 50%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.scroll-box-container{
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.scroll-box-article{
+  width: 45%;
+}
+
+
+.news-thumbnail{
+  width: 20%;
+  margin: 5px;
+  float: left;
+}
+
+.news-text{
+  width: 75%;
+  float: right;
+}
+
+.news-text p{
+  font-size: 1em;
+  margin: 5px;
+}
+
+.news-text h3{
+  margin: 5px;
+}
+
+.call-button{
+  font-size: 20em;
+}
+
+.scrolling-wrapper {
+  width: 90%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  margin: auto;
+}
+
+.card {
+  display: inline-block;
+}
+
+.img-container{
+  width: 200px;
+}
+
+.logo{
+  width: 100px;
+}
+
+/******************************************
+/* HELPER CLASSES
+/*******************************************/
+
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+     content: " ";
+     display: table;
+}
+.clearfix:after {
+     clear:both;
+}
+
+.is-hidden {
+     display: none;
+}
+.is-visible {
+     display: block;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
